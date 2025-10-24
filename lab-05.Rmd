@@ -92,7 +92,7 @@ There are 55 observations in the data set.
 staff_long <- staff %>%
   pivot_longer(
     cols = c(`1975`,`1989`,`1993`,`1995`,`1999`,`2001`,`2003`,`2005`,`2007`,`2009`,`2011`), 
-    names_to = "Year",
+    names_to = "year",
     values_to = "percent"
     )
 ```
@@ -102,7 +102,11 @@ staff_long <- staff %>%
 
 ```{r dot-plot}
 # Write your code for Exercise 3 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_point()
 
 
 ```
@@ -111,9 +115,13 @@ staff_long <- staff %>%
 
 ```{r bad-line-plot}
 # Write your code for Exercise 4 here
+ggplot(data = staff_long,
+       mapping = aes(x = year,
+                     y = percent,
+                     colour = faculty_type)) +
+  geom_line()
 
-
-
+# Problem:
 ```
 
 ## Exercise 5
