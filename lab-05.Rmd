@@ -22,7 +22,7 @@ knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
 _Write your comments about image 1 below_
-
+It is visually striking but does not communicate data clearly. It is more art than data visualisation.
 
 
 
@@ -45,7 +45,7 @@ knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 ```
 
 _Write your comments about image 3 below_
-
+There are too many variables without clear legend or encoding. Also, scatterplot overloaded with lines and text that hard for people to follow patterns.
 
 
 
