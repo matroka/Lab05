@@ -77,7 +77,11 @@ Is the format `staff` data *wide* or *long*?
 
 
 How many observations are there in the data set?
+<<<<<<< HEAD
 
+=======
+There are 55 observations in the data set.
+>>>>>>> 3755f8cc49b0644f468713a7ebe9650d9dc2545c
 
 
 
