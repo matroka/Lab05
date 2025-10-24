@@ -34,7 +34,7 @@ knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
 _Write your comments about image 2 below_
-
+This visualisation doesnt tell us which aspect of the pie chart corresponds to which variable.
 
 
 
@@ -56,7 +56,7 @@ knitr::include_graphics("img/global-income-dist.PNG")
 ```
 
 _Write your comments about image 4 below_
-
+The logarithmic scaling of the x-axis distorts our view of the actual distribution.
 
 
 
